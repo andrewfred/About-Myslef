@@ -1,0 +1,172 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+
+/*Navigation bar*/
+.icon-bar {
+    background-color: #fff;
+    margin-top: 18px;
+    border-width: 2px solid #fff;
+    margin-right: 1.2em;
+}
+
+.navbar-brand h1 {
+    margin-top: 9px;
+}
+
+
+.kl-nav {
+    margin-top: -20px;
+}
+
+a:focus, a:hover {
+    color: #D14233;
+    text-decoration: underline;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navbar-nav .active a {
+    
+
+}
+
+.nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+/*background picture*/
+.view {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.big-letter{
+    height: 100%;
+    width: 100%;
+    background-color: #000000c4;
+}
+
+.container-flex {
+    text-align: center;
+}
+
+.move-text {
+    margin-top: 17em;
+}
+
+.text h4, h1, h4 {
+    color: #fff;
+}
+
+.discover-letter p {
+    color: #fff;
+}
+
+/*button css*/
+.btn-default {
+    width: 150px;
+    height: 45px;
+    border-radius: 0px;
+    background-color: transparent;
+    margin-top: 2em;
+}
+
+
+/*About My Story Css*/
+.session-story {
+    margin-top: 8em;
+}
+
+#about {
+    color: #999;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.about-session h1 {
+    letter-spacing: 5px;
+    color: #000;
+    font-size: 2.7em;
+}
+
+.about-paragraph h5 {
+    font-size: 1.2em;
+    color: #999;
+    line-height: 22px;
+}
+
+.about-bottons .btn-default-lg {
+    border-radius: 0px;
+    height: 45px;
+    width: 170px;
+    background-color: transparent;
+    border-color: #999;
+    margin-top: 1em;
+}
+
+.about-bottons p {
+    font-size: 16px;
+    color: #999;
+}
+
+.about-image .card-image img {
+    max-width: 38em;
+    max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer css*/
+.container-footer {
+    margin-top: 11em;
+    background-color: #441505;
+}
+
+
+.foot-txt ul > li {
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    list-style: none;
+    color: #fff;
+}
+
