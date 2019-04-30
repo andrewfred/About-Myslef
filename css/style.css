@@ -6,6 +6,11 @@ body{
     overflow-x: hidden;
 }
 
+.navbar-static {
+    background-color: #441505;
+    height: 80px;
+}
+
 /*Navigation bar*/
 .icon-bar {
     background-color: #fff;
