@@ -159,6 +159,17 @@ a:focus, a:hover {
     max-height: 500px;
 }
 
+.card-image img {
+   width: 400px;
+   height: 400px;
+}
+
+.big-letters {
+    height: 100%;
+    width: 100%;
+    background-color: #000000b3;
+}
+
 
 /* Hobbies Css */
 .hobby-text {
