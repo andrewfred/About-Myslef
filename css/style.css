@@ -95,8 +95,29 @@ a:focus, a:hover {
     margin-top: 2em;
 }
 
+.discover-letter .btn-default:hover {
+    background-color: transparent;
+}
+
 
 /*About My Story Css*/
+.background {
+    margin-top: -38px;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-top {
+    text-align: center;
+}
+
+.txt {
+    margin-top: -32px;
+}
+
+
 .session-story {
     margin-top: 8em;
 }
