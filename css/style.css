@@ -2,12 +2,10 @@ html,
 body{
     height: 100%;
     width: 100%;
-    font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
 }
 
 .navbar-static {
-    background-color: #441505;
     height: 80px;
 }
 
@@ -29,7 +27,7 @@ body{
 
 
 .kl-nav {
-    margin-top: -20px;
+    margin-top: -18px;
 }
 
 a:focus, a:hover {
@@ -45,7 +43,7 @@ a:focus, a:hover {
 }
 
 .nav > li > a {
-    color: #fff;
+    color: #000;
     font-size: 15px;
     font-style: normal;
 }
@@ -54,6 +52,10 @@ a:focus, a:hover {
     text-decoration: none;
     background-color: transparent;
     
+}
+
+.header-nav {
+    color: #000;
 }
 
 /*background picture*/
@@ -90,7 +92,6 @@ a:focus, a:hover {
 .btn-default {
     width: 150px;
     height: 45px;
-    border-radius: 0px;
     background-color: transparent;
     margin-top: 2em;
 }
@@ -196,6 +197,36 @@ a:focus, a:hover {
 
 .container-section {
     margin-top: 50px;
+}
+
+
+/* Resources Css */
+.container-resources {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.resources-page {
+    margin-top: 50px;
+}
+
+.resources-head h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+.order-list {
+    margin-top: 38px;
+}
+
+.order-list > li {
+    list-style: none;
+}
+
+.order-list > li > a {
+    font-size: 18px;
+    color: #000;
 }
 
 
@@ -353,10 +384,10 @@ a:focus, a:hover {
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
-    color: #ffffff;
-    background: brown;
+    color: #000;
+    background: #fff;
     padding: 10px 30px;
-    border: 1px solid brown;
+    border: 1px solid #000;
     text-transform: uppercase;
     transition: all 500ms ease;
     font-family: 'Open Sans', sans-serif;
@@ -364,11 +395,7 @@ a:focus, a:hover {
     border-radius: 80px;
   }
   
-  .btn-style-one:hover {
-    background-color: #fff;
-    color: brown;
-    transition: 2s;
-  }
+  
   
   .contact-section .contact-area-right {
     margin-left: 16px;
